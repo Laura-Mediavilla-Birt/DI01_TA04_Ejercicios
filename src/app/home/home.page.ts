@@ -30,12 +30,12 @@ export class HomePage {
   // cuando el array cambie (p.ej. si añadimos o eliminamos elementos).
   // elementos = Elemento[]
   elementos = signal<Elemento[]>([
-    { id: 1, nombre: 'Interestelar', descripcion: 'Película de ciencia ficción.' },
-    { id: 2, nombre: 'El Padrino', descripcion: 'Película clásica de mafias.' },
-    { id: 3, nombre: 'Matrix', descripcion: 'Película de ciencia ficción y acción.' },
-    { id: 4, nombre: 'Titanic', descripcion: 'Película romántica y dramática.' },
-    { id: 5, nombre: 'Avatar', descripcion: 'Película de ciencia ficción y aventura.' }
-  ]);
+  { id: 1, nombre: 'Angular', descripcion: 'Framework SPA de Google', categoria: 'Frontend' },
+  { id: 2, nombre: 'Ionic', descripcion: 'Framework para apps híbridas', categoria: 'Mobile' },
+  { id: 3, nombre: 'TypeScript', descripcion: 'Superset tipado de JavaScript', categoria: 'Lenguaje' },
+  { id: 4, nombre: 'Node.js', descripcion: 'Entorno de ejecución de JS en servidor', categoria: 'Backend' },
+  { id: 5, nombre: 'Capacitor', descripcion: 'Puente nativo para apps Ionic', categoria: 'Mobile' }
+]);
 
   // TODO
   // Computed: se recalcula automáticamente cuando cambia el signal "elementos".
